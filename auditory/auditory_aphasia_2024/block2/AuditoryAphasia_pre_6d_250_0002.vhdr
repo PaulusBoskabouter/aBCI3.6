@@ -1,0 +1,108 @@
+BrainVision Data Exchange Header File Version 1.0
+; Data created by the BrainVision Recorder
+
+[Common Infos]
+Codepage=UTF-8
+DataFile=AuditoryAphasia_pre_6d_250_0002.eeg
+MarkerFile=AuditoryAphasia_pre_6d_250_0002.vmrk
+DataFormat=BINARY
+; Data orientation: MULTIPLEXED=ch1,pt1, ch2,pt1 ...
+DataOrientation=MULTIPLEXED
+NumberOfChannels=32
+; Sampling interval in microseconds
+SamplingInterval=2000
+
+[Binary Infos]
+BinaryFormat=INT_16
+
+[Channel Infos]
+; Each entry: Ch<Channel number>=<Name>,<Reference channel name>,
+; <Resolution in "Unit">,<Unit>, Future extensions..
+; Fields are delimited by commas, some fields might be omitted (empty).
+; Commas in channel names are coded as "\1".
+Ch1=Fp2,,0.1,µV
+Ch2=F4,,0.1,µV
+Ch3=F8,,0.1,µV
+Ch4=FC6,,0.1,µV
+Ch5=C4,,0.1,µV
+Ch6=T8,,0.1,µV
+Ch7=CP2,,0.1,µV
+Ch8=CP6,,0.1,µV
+Ch9=TP10,,0.1,µV
+Ch10=P8,,0.1,µV
+Ch11=O2,,0.1,µV
+Ch12=PO10,,0.1,µV
+Ch13=P4,,0.1,µV
+Ch14=Cz,,0.1,µV
+Ch15=Pz,,0.1,µV
+Ch16=Oz,,0.1,µV
+Ch17=PO9,,0.1,µV
+Ch18=O1,,0.1,µV
+Ch19=P7,,0.1,µV
+Ch20=P3,,0.1,µV
+Ch21=CP5,,0.1,µV
+Ch22=CP1,,0.1,µV
+Ch23=T7,,0.1,µV
+Ch24=C3,,0.1,µV
+Ch25=FC1,,0.1,µV
+Ch26=FCz,,0.1,µV
+Ch27=FC2,,0.1,µV
+Ch28=Fz,,0.1,µV
+Ch29=FC5,,0.1,µV
+Ch30=F7,,0.1,µV
+Ch31=F3,,0.1,µV
+Ch32=Fp1,,0.1,µV
+
+[Comment]
+
+BrainVision Recorder Professional   -   V. 1.23.0001
+
+
+A m p l i f i e r  S e t u p
+============================
+Number of channels: 32
+Sampling Rate [Hz]: 500
+Sampling Interval [µS]: 2000
+
+Channels
+--------
+#     Name      Phys. Chn.    Resolution / Unit   Low Cutoff [s]   High Cutoff [Hz]   Notch [Hz]    Series Res. [kOhm] Gradient         Offset
+1     Fp2         1                0.1 µV             10             1000              Off                0                 
+2     F4          2                0.1 µV             10             1000              Off                0                 
+3     F8          3                0.1 µV             10             1000              Off                0                 
+4     FC6         4                0.1 µV             10             1000              Off                0                 
+5     C4          5                0.1 µV             10             1000              Off                0                 
+6     T8          6                0.1 µV             10             1000              Off                0                 
+7     CP2         7                0.1 µV             10             1000              Off                0                 
+8     CP6         8                0.1 µV             10             1000              Off                0                 
+9     TP10        9                0.1 µV             10             1000              Off                0                 
+10    P8          10               0.1 µV             10             1000              Off                0                 
+11    O2          11               0.1 µV             10             1000              Off                0                 
+12    PO10        12               0.1 µV             10             1000              Off                0                 
+13    P4          13               0.1 µV             10             1000              Off                0                 
+14    Cz          14               0.1 µV             10             1000              Off                0                 
+15    Pz          15               0.1 µV             10             1000              Off                0                 
+16    Oz          16               0.1 µV             10             1000              Off                0                 
+17    PO9         17               0.1 µV             10             1000              Off                0                 
+18    O1          18               0.1 µV             10             1000              Off                0                 
+19    P7          19               0.1 µV             10             1000              Off                0                 
+20    P3          20               0.1 µV             10             1000              Off                0                 
+21    CP5         21               0.1 µV             10             1000              Off                0                 
+22    CP1         22               0.1 µV             10             1000              Off                0                 
+23    T7          23               0.1 µV             10             1000              Off                0                 
+24    C3          24               0.1 µV             10             1000              Off                0                 
+25    FC1         25               0.1 µV             10             1000              Off                0                 
+26    FCz         26               0.1 µV             10             1000              Off                0                 
+27    FC2         27               0.1 µV             10             1000              Off                0                 
+28    Fz          28               0.1 µV             10             1000              Off                0                 
+29    FC5         29               0.1 µV             10             1000              Off                0                 
+30    F7          30               0.1 µV             10             1000              Off                0                 
+31    F3          31               0.1 µV             10             1000              Off                0                 
+32    Fp1         32               0.1 µV             10             1000              Off                0                 
+
+S o f t w a r e  F i l t e r s
+==============================
+Disabled
+
+
+No impedance values available at 18:01:33!
